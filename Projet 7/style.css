@@ -1,0 +1,71 @@
+html { 
+
+
+} 
+
+body { 
+    margin: 0; 
+    padding: 0;
+} 
+
+
+/*******************************************************************
+LAYOUT
+*******************************************************************/
+
+/*DIAPORAMA*/
+
+header { 
+    border: 3px solid green;
+    background-color: green;
+    height: 800px;
+} 
+
+#fleches{
+    border: maroon 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-arrow-left{
+    border: blueviolet 3px solid;
+
+}
+.fa-arrow-right{
+    border: burlywood 3px solid;
+
+}
+
+
+
+/**/
+section { 
+    border: 3px solid red;
+    background-color: red;
+    display: flex;
+} 
+
+div { 
+    border: 3px solid gray;
+    background-color: grey;
+
+} 
+#map{
+    border: 3px solid yellow;
+    background-color: yellow;
+    height: 600px;
+    width: 70%;
+}
+
+#inforesa{
+    border: 3px solid orange;
+    background-color: orange;
+    width: 30%;
+    height: 600px;
+}
+/**/
+footer { 
+    border: 3px solid blue;
+    background-color: blue;
+    height: 100px;
+} 
+
